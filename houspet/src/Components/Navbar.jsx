@@ -6,13 +6,13 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-logo">Houspet</div>
       <div className="navbar-botones">
-      <Link to="/" className="botones">Inicio</Link>
-        <Link to ="" className="botones">Servicios</Link>
-        <Link to ="" className="botones">Contactos</Link>
-        <Link to ="" className="botones">Dona</Link>
-        <Link to ="" className="botones">Adopta</Link>
+        <Link to="/" className="botones">Inicio</Link>
+        <Link to="" className="botones">Servicios</Link>
+        <Link to="" className="botones">Contactos</Link>
+        <Link to="" className="botones">Dona</Link>
+        <Link to="" className="botones">Adopta</Link>
         <Link to="/Equipo" className="botones">Equipo</Link>
-        <button onClick={() => window.scrollTo({ top:document.getElementById("Historias").offsetTop,behavior: "smooth"} )} className='botones'>Historias</button>
+        <button onClick={() => window.scrollTo({ top: document.getElementById("Historias").offsetTop, behavior: "smooth" })} className='botones'>Historias</button>
       </div>
 
       <div className="navbar-search">
@@ -23,6 +23,7 @@ const Navbar = () => {
         />
       </div>
     </nav>
+
   );
 };
 

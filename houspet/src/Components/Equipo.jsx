@@ -5,8 +5,8 @@ function Equipo() {
     return (
         <>
         <Navbar/>
-        <div className="body">
-            <h1 className="titulos"> Nuestros equipos</h1>
+        <div className="body2">
+        <h1 className="titulo2"> Nuestros equipos</h1>
             <div>
                 <h1 className="subtitulos">Sobre nostros:</h1>
                 <p className="parrafos">En nuestra veterinaria nos dedicamos con amor y compromiso al cuidado de tus mascotas. Somos un equipo de profesionales apasionados por los animales, que trabaja cada día para brindarles atención médica de calidad, en un ambiente cálido y confiable.

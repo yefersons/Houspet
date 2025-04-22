@@ -3,9 +3,13 @@ import Navbar from './Components/Navbar';
 
 const Inicio = () => {
   return (
+    
     <>
     <Navbar/>
     <div className="body">
+    </div>
+      <img src="Imagenes/Logo.jpg" alt='Logo' className="imagen"></img>
+      <div>
       <h1 className="titulos"> Bienvenido a Houspet</h1>
       <div>
         <h1 className="subtitulos">Sobre nostros:</h1>

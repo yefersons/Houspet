@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     path: "/equipo",   // Ruta para el componente 'Equipo'
     element: <Equipo />,
   },
-]);
+]); 
 
 // Renderiza la aplicación usando ReactDOM.createRoot
 const root = ReactDOM.createRoot(document.getElementById('root'));
